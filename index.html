@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <h1>Aprendendo javascript</h1>
+    <h2>1.Crie um programa que imprima ola mundo no console</h2>
+    <button onclick="helloWorld()"> Resposta </button>
+    <br>
+    <br>
+    <br>
+    <h2>2.Faça um algoritmo que receba dois números e exiba o resultado da sua soma.</h2>
+    <label for="numA"> Numero A</label>
+    <input type="number" id="numA">
+    <br>
+    <label for="numB"> Numero B</label>
+    <input type="number" id="numB">
+    <button id="btn-soma">Somar</button>
+    <br>
+    <div id="resultado"></div>
+    <br>
+    <br>
+    <br>
+    <h2>3.Faça um algoritmo que receba dois números e ao final mostre a soma, subtração, multiplicação e a divisão dos números lidos.</h2>
+    <label for="q3-numA"> Numero A</label>
+    <input type="number" id="q3-numA">
+    <br>
+    <label for="q3-numB"> Numero B</label>
+    <input type="number" id="q3-numB">
+    <button id="btn-q3">resultados</button>
+    <br>
+    <div id="resultado_soma"></div>
+    <br>
+    <div id="resultado_menos"></div>
+    <br>
+    <div id="resultado_multi"></div>
+    <br>
+    <div id="resultado_div"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2>4.Escrever um algoritmo para determinar o consumo médio de um automóvel sendo fornecida a distância total percorrida pelo automóvel e o total de combustível gasto.</h2>
+    <label for="q4-dist"> Distancia total</label>
+    <input type="number" id="q4-dist">
+    <br>
+    <label for="q4-comb">Total de combustivel</label>
+    <input type="number" id="q4-comb">
+    <button id="btn-q4">Calcular</button>
+    <br>
+    <div id="consumo_medio"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2>5.Escrever um algoritmo que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas por ele no mês (em dinheiro). Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas, informar o seu nome, o salário fixo e salário no final do mês.</h2>
+    <label for="q5-nome"> Nome do vendedor</label>
+    <input type="text" id="q5-nome">
+    <br>
+    <label for="q5-fixo">Salario</label>
+    <input type="number" id="q5-fixo">
+    <br>
+    <label for="q5-total">Total de vendas</label>
+    <input type="number" id="q5-total">
+    
+    <button id="btn-q5">Calcular comissão</button>
+    <br>
+    <div id="nome_vendedor"></div>
+    <br>
+    <div id="comissao_fixa"></div>
+    <br>
+    <div id="comissao_total"></div>
+    <br>
+    <br>
+    <br>
+    <br>        
+    <h2>6.Escrever um algoritmo que leia o nome de um aluno e as notas das três provas que ele obteve no semestre. No final informar o nome do aluno e a sua média (aritmética).</h2>
+    <label for="q6-nome"> Nome do aluno</label>
+    <input type="text" id="q6-nome">
+    <br>
+    <label for="q6-ap1">ap1</label>
+    <input type="number" id="q6-ap1">
+    <br>
+    <label for="q6-ap2">ap2</label>
+    <input type="number" id="q6-ap2">
+    <br>
+    <label for="q6-ap3">ap3</label>
+    <input type="number" id="q6-ap3">
+    
+    <button id="btn-q6">Calcular media</button>
+    <br>
+    <div id="nome_aluno"></div>
+    <br>
+    <div id="media_ap"></div>
+    <br>
+    <br>
+    <br>
+    <br> 
+    <h2>7.Ler dois valores para as variáveis A e B, e efetuar as trocas dos valores de forma que a variável A passe a possuir o valor da variável B e a variável B passe a possuir o valor da variável A. Apresentar os valores trocados.</h2>
+    <label for="q7-varA">Variavel A</label>
+    <input type="number" id="q7-varA">
+    <br>
+    <label for="q7-varB">Variavel B</label>
+    <input type="number" id="q7-varB">
+    <br>
+    
+    <button id="btn-q7">Trocar</button>
+    <br>
+    <div id="varA"></div>
+    <br>
+    <div id="varB"></div>
+    <br>
+    <br>
+    <br>
+    <br> 
+    <h2>8.Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit. A fórmula de conversão é: F=(9*C+160) / 5, sendo F a temperatura em Fahrenheit e C a temperatura em Celsius.</h2>
+    <label for="q8-temperaturaC">Temperatura em Celsius</label>
+    <input type="number" id="q8-temperaturaC">
+    <br>
+    
+    <button id="btn-q8">Trocar temperatura</button>
+    <br>
+    <div id="tempF"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
+    <h2>9. Elaborar um algoritmo que efetue a apresentação do valor da conversão em real (R$) de um valor lido em dólar (US$). O algoritmo deverá solicitar o valor da cotação do dólar e também a quantidade de dólares disponíveis com o usuário.</h2>
+    <label for="q9-cotacao">Cotacao dolar</label>
+    <input type="number" id="q9-cotacao">
+    <br>
+    <label for="q9-quantidade">Quantidade</label>
+    <input type="number" id="q9-qtd">
+    <br>
+    
+    <button id="btn-q9">Cotar</button>
+    <br>
+    <div id="cotacao"></div>
+    <br>
+    <br>
+    <br>
+
+
+    <h2>10. A Loja Mamão com Açúcar está vendendo seus produtos em 5 (cinco) prestações sem juros. Faça um algoritmo que receba um valor de uma compra e mostre o valor das prestações.</h2>
+    <label for="q10-compra">Valor total da compra</label>
+    <input type="number" id="q10-compra">
+    <br>
+    
+    <button id="btn-q10">Calcular prestacoes</button>
+    <br>
+    <div id="prestacoes"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h2>11. Escrever um algoritmo que leia o nome e as três notas obtidas por um aluno durante o semestre. Calcular a sua média (aritmética), informar o nome e sua menção aprovado , Reprovado  e Recuperação.</h2>
+    <label for="q11-nome"> Nome do aluno</label>
+    <input type="text" id="q11-nome">
+    <br>
+    <label for="q11-ap1">ap1</label>
+    <input type="number" id="q11-ap1">
+    <br>
+    <label for="q11-ap2">ap2</label>
+    <input type="number" id="q11-ap2">
+    <br>
+    <label for="q11-ap3">ap3</label>
+    <input type="number" id="q11-ap3">
+    
+    <button id="btn-q11">Calcular media</button>
+    <br>
+    <div id="nome_aluno"></div>
+    <br>
+    <div id="media_ap"></div>
+    <br>
+    <br>
+    <div id="resultado"></div>
+    <br>
+    <br> 
+    <h2>12. Faça um algoritmo que receba o número do mês e mostre o mês correspondente. Valide mês inválido.</h2>
+    <label for="q12-mes"> Numero do mês: </label>
+    <input type="number" id="q12-mes">
+    <br>
+
+    
+    <button id="btn-q12">Mes correspondete: </button>
+    <br>
+    <div id="q12-resultado"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
+    <h2>13. Faça um algoritmo que calcule o valor da conta de luz de uma pessoa. Sabe-se que o cálculo da conta de luz segue a tabela abaixo: Tipo de Cliente Valor do KW/h 1 (Residência) 0,60 2 (Comércio) 0,48 3 (Indústria) 1,29 O algoritmo deve solicitar o tipo do cliente (1, 2 ou 3) e o consumo mensal em KW/h. Ao final, o algoritmo deve informar o valor a ser pago.</h2>
+    <label for="q13-tipo"> Tipo do cliente: </label>
+    <input type="number" id="q13-tipo">
+    <br>
+    <label for="q13-consumo_mensal"> Consumo Mensal: </label>
+    <input type="number" id="q13-consumo_mensal">
+    <br>
+
+    
+    <button id="btn-q13">Calcular: </button>
+    <br>
+    <div id="q13-total"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
+
+
+</body>
+</html>
